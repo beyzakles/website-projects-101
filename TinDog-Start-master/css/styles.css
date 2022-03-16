@@ -1,0 +1,263 @@
+#title {
+
+    background-color: #ff4c68;
+    color: whitesmoke;
+}
+
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+
+
+}
+
+h1 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 1000;
+    line-height: 1.3;
+    font-size: 60px;
+    text-align: left;
+
+}
+
+h2 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 45px;
+    line-height: 1.5;
+    margin: 0 20%;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    font-size: xxx-large;
+    padding: 3% 0;
+}
+
+p {
+    padding: 1% 2%;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    padding-bottom: 9%;
+    position: relative;
+}
+
+.navbar {
+    /* padding: 0 0 4.5rem; */
+    padding: 1rem 0 2rem;
+    margin-bottom: 40px;
+}
+
+.navbar-brand {
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav-item {
+    font-size: 20px;
+    padding: 0 12px;
+
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.iphone-dog {
+    width: 60%;
+    margin-left: 60px;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 1;
+
+
+}
+
+/* features */
+#features {
+    color: black;
+    padding: 8% 5%;
+    position: relative;
+    z-index: 2;
+    background: whitesmoke;
+
+}
+
+
+.features-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+
+}
+
+.features-icon:hover {
+    color: #ff4c68;
+}
+
+.features-para {
+    color: #8f8f8f;
+    font-size: 1.2rem;
+    padding: 5% 15%;
+
+}
+
+
+#testimonials {
+    background-color: #e98072e0;
+    color: whitesmoke;
+
+    padding: 0 15%;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 15%;
+    margin-top: 8%;
+}
+
+#press {
+    background-color: #e98072e0;
+
+}
+
+.press-logo {
+    width: 15%;
+    margin: 5% 3%;
+}
+
+.carousel-item.active {
+    padding-bottom: 10%;
+}
+
+/*PRICING */
+#pricing {
+    padding: 75px 80px;
+
+    background: whitesmoke;
+}
+
+.pricing-box {
+    padding: 3% 2%;
+
+}
+
+#cta {
+
+    background-color: #ff4c68;
+    padding: 1% 0;
+    color: whitesmoke;
+}
+
+#footer {
+    padding: 8% 0;
+    background-color: whitesmoke;
+
+    padding: 8% 0;
+    color: grey;
+}
+
+.footer-buton {
+    margin: 5% 2%;
+}
+
+.footer-logos {
+    padding: 2% 8%;
+    size: 15px;
+    font-size: 25px;
+    color: black;
+}
+
+@media (max-width: 1017px) {
+
+    #title {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .iphone-dog {
+        position: static;
+        transform: rotate(0);
+        text-align: center;
+        margin: 0;
+    }
+
+    #features {
+        font-size: 20px;
+
+    }
+
+    .features-para {
+        color: #8f8f8f;
+        font-size: 15px;
+        padding: 2% 15%;
+
+    }
+
+    .features-icon {
+        size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    #testimonials {
+        padding: 0;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    #pricing {
+        padding: 25px 80px;
+    }
+
+    .pricing-h2 {
+        margin: 25px 0;
+
+    }
+
+    .pricing-box {
+        size: 30%;
+    }
+
+    .features-icon {
+        font-size: 20px;
+    }
+
+    em {
+        font-size: 15px;
+    }
+
+    #cta {
+
+        padding: 15% 0;
+
+    }
+}

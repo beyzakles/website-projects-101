@@ -1,0 +1,123 @@
+h1 {
+    color: #66BFBF;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    color: #66BFBF;
+    font-weight: normal;
+    line-height: 2;
+}
+
+h3 {
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+/****************************************************/
+
+div {
+    margin: 0;
+    text-align: center;
+}
+
+.top-container {
+    background-color: #041562;
+    position: absolute;
+    padding-top: 150px;
+    height: 755px;
+}
+
+.middle-container {
+    background-color: #EEEEEE;
+    position: relative;
+    padding-top: 50px;
+}
+
+.bottom-container {
+    background-color: #DA1212;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/*****************************************************/
+
+.top-cloud {
+    position: relative;
+    right: -450px;
+    top: 30px;
+}
+
+.bottom-cloud {
+    position: relative;
+    left: -100px;
+    bottom: 300px;
+}
+
+.mountain {
+    position: relative;
+    left: -50px;
+    bottom: -10px;
+}
+
+.profile-photo {
+    height: 150px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.skill-row {
+    width: 50%;
+    display: inline-block;
+    margin: 50px auto 100px auto;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30 px;
+    margin-top: 13%;
+}
+
+.language-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    margin-top: 5%;
+}
+
+.programming {
+    margin-bottom: 0px;
+    margin-left: 60%;
+    text-align: left;
+}
+
+.language-list {
+    padding-bottom: 0px;
+    text-align: left;
+    padding-left: 8%;
+}
